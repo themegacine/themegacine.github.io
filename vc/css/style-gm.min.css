@@ -1,0 +1,274 @@
+.btn,
+.gm-style h3 {
+    text-align: center
+}
+
+.btn,
+.btn-success {
+    background: #1C84C6
+}
+
+.content-map {
+    height: 500px;
+    width: 778px;
+    margin-left: -20px
+}
+
+#map {
+    height: 100%;
+    width: 100%
+}
+
+.gm-style p {
+    color: #525456;
+    font: 400 18px/1.36 open sans;
+    margin: 0;
+    padding: 0 0 5px
+}
+
+.gm-style h3,
+.gm-style h4,
+.gm-style ul {
+    color: #4C4C4C;
+    margin: 0
+}
+
+.gm-style h3 {
+    padding: 6px 20px 0;
+    text-transform: uppercase
+}
+
+.gm-style h4 {
+    padding: 0
+}
+
+.gm-style ul {
+    font: 400 18px open sans
+}
+
+.btn {
+    border-radius: 3px;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px 12px;
+    vertical-align: middle;
+    white-space: nowrap
+}
+
+.tooltip,
+input[type=checkbox] {
+    display: none
+}
+
+.gm-style span {
+    font-weight: 700
+}
+
+.danger {
+    color: #DD4B39
+}
+
+.sucess {
+    color: #00A65A
+}
+
+.warning {
+    color: #F8AC59
+}
+
+.pl-15 {
+    padding-left: 15px
+}
+
+.pl-20 {
+    padding-left: 20px
+}
+
+.iconMap-1 {
+    background: url(../img/iconMap.png) 50% 10px no-repeat #008bff
+}
+
+.iconMap-2 {
+    background: url(../img/iconMap.png) 50% -28px no-repeat #008bff
+}
+
+.iconMap-3 {
+    background: url(../img/iconMap.png) 50% -66px no-repeat #008bff
+}
+
+.iconMap-4 {
+    background: url(../img/iconMap.png) 50% -104px no-repeat #008bff
+}
+
+.iconMap-5 {
+    background: url(../img/iconMap.png) 50% -142px no-repeat #008bff
+}
+
+.iconMap-6 {
+    background: url(../img/iconMap.png) 50% -180px no-repeat #e87352
+}
+
+.iconMap-7 {
+    background: url(../img/iconMap.png) 50% -218px no-repeat #e87352
+}
+
+.iconMap-8 {
+    background: url(../img/iconMap.png) 50% -256px no-repeat #e87352
+}
+
+.iconMap-9 {
+    background: url(../img/iconMap.png) 50% -294px no-repeat #e87352
+}
+
+.iconMap-10 {
+    background: url(../img/iconMap.png) 50% -332px no-repeat #ea4c89
+}
+
+.iconMap-11 {
+    background: url(../img/iconMap.png) 50% -370px no-repeat #ea4c89
+}
+
+.iconMap-12 {
+    background: url(../img/iconMap.png) 50% -408px no-repeat #FFA700
+}
+
+.iconMap-13 {
+    background: url(../img/iconMap.png) 50% -446px no-repeat #FFA700
+}
+
+.iconMap-14 {
+    background: url(../img/iconMap.png) 50% -484px no-repeat #FFA700
+}
+
+.iconMap-15 {
+    background: url(../img/iconMap.png) 50% -522px no-repeat #626262
+}
+
+.iconMap-16 {
+    background: url(../img/iconMap.png) 50% -560px no-repeat #01B050
+}
+
+.iconMap {
+    width: 780px;
+    margin-left: -20px
+}
+
+.iconMap span {
+    cursor: pointer;
+    float: left;
+    height: 47.7px;
+    margin: .5px;
+    width: 47.7px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 450ms linear;
+    -moz-transition: all 450ms linear;
+    -o-transition: all 450ms linear;
+    transition: all 450ms linear
+}
+
+.iconMap span:hover {
+    opacity: .8;
+    -webkit-transition: background-color 450ms linear;
+    -moz-transition: background-color 450ms linear;
+    -o-transition: background-color 450ms linear;
+    -ms-transition: background-color 450ms linear;
+    transition: background-color 450ms linear
+}
+
+.iconMap-1_ input:checked+span {
+    background: url(../img/iconMap.png) 50% 10px no-repeat #0061b2;
+    opacity: 1
+}
+
+.iconMap-2_ input:checked+span {
+    background: url(../img/iconMap.png) 50% -28px no-repeat #0061b2;
+    opacity: 1
+}
+
+.iconMap-3_ input:checked+span {
+    background: url(../img/iconMap.png) 50% -66px no-repeat #0061b2;
+    opacity: 1
+}
+
+.iconMap-4_ input:checked+span {
+    background: url(../img/iconMap.png) 50% -104px no-repeat #0061b2;
+    opacity: 1
+}
+
+.iconMap-5_ input:checked+span {
+    background: url(../img/iconMap.png) 50% -142px no-repeat #0061b2;
+    opacity: 1
+}
+
+.iconMap-6_ input:checked+span {
+    background: url(../img/iconMap.png) 50% -180px no-repeat #b95c41;
+    opacity: 1
+}
+
+.iconMap-7_ input:checked+span {
+    background: url(../img/iconMap.png) 50% -218px no-repeat #b95c41;
+    opacity: 1
+}
+
+.iconMap-8_ input:checked+span {
+    background: url(../img/iconMap.png) 50% -256px no-repeat #b95c41;
+    opacity: 1
+}
+
+.iconMap-9_ input:checked+span {
+    background: url(../img/iconMap.png) 50% -294px no-repeat #b95c41;
+    opacity: 1
+}
+
+.iconMap-10_ input:checked+span {
+    background: url(../img/iconMap.png) 50% -332px no-repeat #bb3c6d;
+    opacity: 1
+}
+
+.iconMap-11_ input:checked+span {
+    background: url(../img/iconMap.png) 50% -370px no-repeat #bb3c6d;
+    opacity: 1
+}
+
+.iconMap-12_ input:checked+span {
+    background: url(../img/iconMap.png) 50% -408px no-repeat #cc8500;
+    opacity: 1
+}
+
+.iconMap-13_ input:checked+span {
+    background: url(../img/iconMap.png) 50% -446px no-repeat #cc8500;
+    opacity: 1
+}
+
+.iconMap-14_ input:checked+span {
+    background: url(../img/iconMap.png) 50% -484px no-repeat #cc8500;
+    opacity: 1
+}
+
+.iconMap-15_ input:checked+span {
+    background: url(../img/iconMap.png) 50% -522px no-repeat #4e4e4e;
+    opacity: 1
+}
+
+.iconMap-16_ input:checked+span {
+    background: url(../img/iconMap.png) 50% -560px no-repeat #008c40;
+    opacity: 1
+}
+
+.tooltip {
+    background: #717171;
+    border-radius: 5px;
+    border: 1px solid #464646;
+    box-shadow: 0 1px 2px #2f2f2f;
+    color: #fff;
+    font: 15px open sans;
+    padding: 8px 14px;
+    position: absolute
+}

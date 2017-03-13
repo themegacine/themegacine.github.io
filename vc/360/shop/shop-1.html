@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 4.01 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Panorama Project - GTA Crazy</title>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<link rel="stylesheet" type="text/css" href="../../css/panorama-360.css">
+	<script type="text/javascript" src="../../js/jquery.min.js"></script>
+	<script type="text/javascript" src="../../js/jquery.mousewheel.pack.min.js"></script>
+	<script type="text/javascript" src="../../js/jquery.panorama360.min.js"></script>
+	<script>
+		// Panorama 360
+		$(function(){
+			$('.panorama-view').panorama360({
+				sliding_controls: true,
+				start_position: 2800
+			});
+		});
+	</script>
+</head>
+<body>
+	<div class="panorama">
+		<div class="preloader"></div>
+		<div class="panorama-view">
+			<div class="panorama-container">    
+				<img src="shop-1.jpg" data-width="6143" data-height="650" usemap="testmap">
+					<map id="testmap" name="testmap"> 
+						<area class="shape-c" shape="rect" coords="800,480,1000,550" href="#"/> 
+					</map>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

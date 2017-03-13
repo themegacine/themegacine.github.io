@@ -1,0 +1,138 @@
+html, body, #map {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.content-map {
+	height: 700px;
+	width: 100%;
+    position: relative;
+}
+
+.gm-style p{
+	color: #525456;
+	font: 400 18px/1.36 open sans;
+	margin: 0;
+	padding: 0 0 5px 0;
+}
+
+.gm-style h3 {
+	color: #4C4C4C;
+	margin: 0;
+	padding: 6px 20px 0 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.gm-style h4 {
+	color: #4C4C4C;
+	margin: 0;
+	padding: 0; 
+}
+.gm-style ul {
+	color: #4C4C4C;
+	font: 400 18px open sans;
+	margin: 0;
+}
+.btn {
+	background: #1C84C6;
+	border-radius: 3px;
+	border: none;
+	color: #FFF;
+	cursor: pointer;
+	display: block;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 8px 12px;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+.btn-success {background:#1C84C6;}
+.gm-style span{font-weight:bold;}
+.danger {color:#DD4B39;}
+.sucess {color:#00A65A;}
+.warning {color:#F8AC59;}
+.pl-15 {padding-left:15px;}
+.pl-20 {padding-left:20px;}
+/*----------------------------
+iconMap Themes
+-----------------------------*/
+.iconMap-1{background:#008bff url(../img/iconMap.png) no-repeat 50% 10px;}
+.iconMap-2{background:#008bff url(../img/iconMap.png) no-repeat 50% -28px;}
+.iconMap-3{background:#008bff url(../img/iconMap.png) no-repeat 50% -66px;}
+.iconMap-4{background:#008bff url(../img/iconMap.png) no-repeat 50% -104px;}
+.iconMap-5{background:#008bff url(../img/iconMap.png) no-repeat 50% -142px;}
+.iconMap-6{background:#e87352 url(../img/iconMap.png) no-repeat 50% -180px;}
+.iconMap-7{background:#e87352 url(../img/iconMap.png) no-repeat 50% -218px;}
+.iconMap-8{background:#e87352 url(../img/iconMap.png) no-repeat 50% -256px;}
+.iconMap-9{background:#e87352 url(../img/iconMap.png) no-repeat 50% -294px;}
+.iconMap-10{background:#ea4c89 url(../img/iconMap.png) no-repeat 50% -332px;}
+.iconMap-11{background:#ea4c89 url(../img/iconMap.png) no-repeat 50% -370px;}
+.iconMap-12{background:#FFA700 url(../img/iconMap.png) no-repeat 50% -408px;}
+.iconMap-13{background:#FFA700 url(../img/iconMap.png) no-repeat 50% -446px;}
+.iconMap-14{background:#FFA700 url(../img/iconMap.png) no-repeat 50% -484px;}
+.iconMap-15{background:#626262 url(../img/iconMap.png) no-repeat 50% -522px;}
+.iconMap-16{background:#01B050 url(../img/iconMap.png) no-repeat 50% -560px;}
+.iconMap-17{background:#424242 url(../img/iconMap.png) no-repeat 50% -600px;}
+
+/*----------------------------
+iconMap Checkbox Themes
+-----------------------------*/
+.iconMap {width:100%;}
+input[type=checkbox] {display:none;}
+.iconMap span {
+	cursor: pointer;
+	float: left;
+	height: 47.7px;
+	margin: 0.5px;
+	width: 47.7px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+    -webkit-transition: all 450ms linear;
+	-moz-transition: all 450ms linear;
+    -o-transition: all 450ms linear;
+    transition: all 450ms linear;
+}
+
+.iconMap span:hover {
+	opacity: 0.8;
+    -webkit-transition: background-color 450ms linear;
+    -moz-transition: background-color 450ms linear;
+    -o-transition: background-color 450ms linear;
+    -ms-transition: background-color 450ms linear;
+    transition: background-color 450ms linear;
+}
+.iconMap-1_ input:checked + span {background:#0061b2 url(../img/iconMap.png) no-repeat 50% 10px;opacity:1;}
+.iconMap-2_ input:checked + span {background:#0061b2 url(../img/iconMap.png) no-repeat 50% -28px;opacity:1;}
+.iconMap-3_ input:checked + span {background:#0061b2 url(../img/iconMap.png) no-repeat 50% -66px;opacity:1;}
+.iconMap-4_ input:checked + span {background:#0061b2 url(../img/iconMap.png) no-repeat 50% -104px;opacity:1;}
+.iconMap-5_ input:checked + span {background:#0061b2 url(../img/iconMap.png) no-repeat 50% -142px;opacity:1;}
+.iconMap-6_ input:checked + span {background:#b95c41 url(../img/iconMap.png) no-repeat 50% -180px;opacity:1;}
+.iconMap-7_ input:checked + span {background:#b95c41 url(../img/iconMap.png) no-repeat 50% -218px;opacity:1;}
+.iconMap-8_ input:checked + span {background:#b95c41 url(../img/iconMap.png) no-repeat 50% -256px;opacity:1;}
+.iconMap-9_ input:checked + span {background:#b95c41 url(../img/iconMap.png) no-repeat 50% -294px;opacity:1;}
+.iconMap-10_ input:checked + span {background:#bb3c6d url(../img/iconMap.png) no-repeat 50% -332px;opacity:1;}
+.iconMap-11_ input:checked + span {background:#bb3c6d url(../img/iconMap.png) no-repeat 50% -370px;opacity:1;}
+.iconMap-12_ input:checked + span {background:#cc8500 url(../img/iconMap.png) no-repeat 50% -408px;opacity:1;}
+.iconMap-13_ input:checked + span {background:#cc8500 url(../img/iconMap.png) no-repeat 50% -446px;opacity:1;}
+.iconMap-14_ input:checked + span {background:#cc8500 url(../img/iconMap.png) no-repeat 50% -484px;opacity:1;}
+.iconMap-15_ input:checked + span {background:#4e4e4e url(../img/iconMap.png) no-repeat 50% -522px;opacity:1;}
+.iconMap-16_ input:checked + span {background:#008c40 url(../img/iconMap.png) no-repeat 50% -560px;opacity:1;}
+.iconMap-17_ input:checked + span {background:#626262 url(../img/iconMap.png) no-repeat 50% -600px;opacity:1;}
+
+
+.tooltip {
+	background: #717171;
+	border-radius: 5px;
+	border: 1px solid #464646;
+	box-shadow: 0 1px 2px #2f2f2f;
+	color: #fff;
+	display: none;
+	font: 15px open sans;
+	padding: 8px 14px;
+	position: absolute;
+}
